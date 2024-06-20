@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
   "hostRequirements": {
     "cpus": 4
   },
@@ -17,14 +17,10 @@
   },
   "customizations": {
     "codespaces": {
-      "openFiles": [
-        "templates/index.html"
-      ]
+      "openFiles": ["templates/index.html"]
     },
     "vscode": {
-      "extensions": [
-        "ms-python.python"
-      ]
+      "extensions": ["ms-python.python"]
     }
   },
   "forwardPorts": [5000]
