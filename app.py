@@ -7,8 +7,6 @@ app = Flask(__name__)
 """
 Build an internal API backing a merchant dashboard for viewing payments, initiating refunds, etc...
 
-The dashboard has a table of payments. Users can select a payment and view all existing refunds or create a new refund with an amount between 0 and the total payment amount (meaning partial refunds also work). Users can also accept or submit evidence for disputes for a payment created by the cardholder. Accepting a dispute will notify the payment gateway. Submitting evidence for the dispute requires sending documentation to the payment gateway. 
-
 
 Features:
 - Load payments in a table
